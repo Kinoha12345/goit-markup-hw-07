@@ -1,0 +1,154 @@
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.h2-clients {
+    font-size: 36px;
+line-height: 42px;
+text-align: center;
+}
+
+.ul-group {
+    display: flex;
+}
+
+.group-link {
+    width: 170px;
+    height: 92px;
+    margin-top: 50px;
+    margin-right: 30px;
+    border: 1px solid var(--svg-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition-property:border-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+
+    &:hover {
+        border-color: var(--brand-color);
+    }
+
+    &:focus {
+        border-color: var(--brand-color);
+    }
+}
+
+.group-svg {
+    fill: var(--svg-color);
+    width: 41px;
+    height: 46.7px;
+
+    transition-property:fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+.group-link:hover .group-svg{
+    fill: var(--brand-color);
+}
+
+.group-link:focus .group-svg{
+    fill: var(--brand-color);
+}
+
+.group-svg1 {
+    fill: var(--svg-color);
+    width: 40px;
+    height: 52px;
+
+    transition-property:fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+.group-link:hover .group-svg1{
+    fill: var(--brand-color);
+}
+
+.group-link:focus .group-svg1{
+    fill: var(--brand-color);
+}
+
+.group-svg2 {
+    fill: var(--svg-color);
+    width: 43.46px;
+    height: 41.18px;
+
+    transition-property:fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+.group-link:hover .group-svg2{
+    fill: var(--brand-color);
+}
+
+.group-link:focus .group-svg2{
+    fill: var(--brand-color);
+}
+
+.group-svg3 {
+    fill: var(--svg-color);
+    width: 84.44px;
+    height: 40.62px;
+
+    transition-property:fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+.group-link:hover .group-svg3{
+    fill: var(--brand-color);
+}
+
+.group-link:focus .group-svg3{
+    fill: var(--brand-color);
+}
+
+.group-svg4 {
+    fill: var(--svg-color);
+    width: 62.54px;
+    height: 45.43px;
+
+    transition-property:fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+.group-link:hover .group-svg4{
+    fill: var(--brand-color);
+}
+
+.group-link:focus .group-svg4{
+    fill: var(--brand-color);
+}
+
+.group-svg5 {
+    fill: var(--svg-color);
+    width: 93.79px;
+    height: 43.93px;
+
+    transition-property:fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
+}
+
+.group-link:hover .group-svg5{
+    fill: var(--brand-color);
+}
+
+.group-link:focus .group-svg5{
+    fill: var(--brand-color);
+}
