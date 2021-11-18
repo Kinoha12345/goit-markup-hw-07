@@ -666,7 +666,7 @@ address {
   padding-bottom: 94px;
 }
 
-.headline3 {
+.gallery__h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -675,19 +675,19 @@ address {
   margin-bottom: 50px;
 }
 
-.ul-gallery {
+.gallery__ul {
   display: flex;
 }
 
-.img1 {
+.gallery__li1 {
   margin-right: 30px;
 }
 
-.gallery-block {
+.gallery__block {
   position: relative;
 }
 
-.text-gallery1 {
+.gallery__text1 {
   position: absolute;
   width: 370px;
   height: 70px;
@@ -706,11 +706,11 @@ address {
   color: var(--white-color);
 }
 
-.img2 {
+.gallery__li2 {
   margin-right: 30px;
 }
 
-.text-gallery2 {
+.gallery__text2 {
   position: absolute;
   width: 370px;
   height: 70px;
@@ -728,7 +728,7 @@ address {
   color: var(--white-color);
 }
 
-.text-gallery3 {
+.gallery__text3 {
   position: absolute;
   width: 370px;
   height: 70px;
@@ -752,7 +752,7 @@ address {
   padding-bottom: 94px;
 }
 
-.headline3 {
+.team-card__h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -986,17 +986,17 @@ address {
   padding-bottom: 94px;
 }
 
-.h2-clients {
+.clients__h2 {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
 }
 
-.ul-group {
+.group__ul {
   display: flex;
 }
 
-.group-link {
+.group__link {
   width: 170px;
   height: 92px;
   margin-top: 50px;
@@ -1013,15 +1013,15 @@ address {
   transition-delay: 0;
 }
 
-.group-link:hover {
+.group__link:hover {
   border-color: var(--brand-color);
 }
 
-.group-link:focus {
+.group__link:focus {
   border-color: var(--brand-color);
 }
 
-.group-svg {
+.group__svg {
   fill: var(--svg-color);
   width: 41px;
   height: 46.7px;
@@ -1031,15 +1031,15 @@ address {
   transition-delay: 0;
 }
 
-.group-link:hover .group-svg {
+.group__link:hover .group__svg {
   fill: var(--brand-color);
 }
 
-.group-link:focus .group-svg {
+.group__link:focus .group__svg {
   fill: var(--brand-color);
 }
 
-.group-svg1 {
+.group__svg1 {
   fill: var(--svg-color);
   width: 40px;
   height: 52px;
@@ -1049,15 +1049,15 @@ address {
   transition-delay: 0;
 }
 
-.group-link:hover .group-svg1 {
+.group__link:hover .group__svg1 {
   fill: var(--brand-color);
 }
 
-.group-link:focus .group-svg1 {
+.group__link:focus .group__svg1 {
   fill: var(--brand-color);
 }
 
-.group-svg2 {
+.group__svg2 {
   fill: var(--svg-color);
   width: 43.46px;
   height: 41.18px;
@@ -1067,15 +1067,15 @@ address {
   transition-delay: 0;
 }
 
-.group-link:hover .group-svg2 {
+.group__link:hover .group__svg2 {
   fill: var(--brand-color);
 }
 
-.group-link:focus .group-svg2 {
+.group__link:focus .group__svg2 {
   fill: var(--brand-color);
 }
 
-.group-svg3 {
+.group__svg3 {
   fill: var(--svg-color);
   width: 84.44px;
   height: 40.62px;
@@ -1085,15 +1085,15 @@ address {
   transition-delay: 0;
 }
 
-.group-link:hover .group-svg3 {
+.group__link:hover .group__svg3 {
   fill: var(--brand-color);
 }
 
-.group-link:focus .group-svg3 {
+.group__link:focus .group__svg3 {
   fill: var(--brand-color);
 }
 
-.group-svg4 {
+.group__svg4 {
   fill: var(--svg-color);
   width: 62.54px;
   height: 45.43px;
@@ -1103,15 +1103,15 @@ address {
   transition-delay: 0;
 }
 
-.group-link:hover .group-svg4 {
+.group__link:hover .group__svg4 {
   fill: var(--brand-color);
 }
 
-.group-link:focus .group-svg4 {
+.group__link:focus .group__svg4 {
   fill: var(--brand-color);
 }
 
-.group-svg5 {
+.group__svg5 {
   fill: var(--svg-color);
   width: 93.79px;
   height: 43.93px;
@@ -1121,11 +1121,11 @@ address {
   transition-delay: 0;
 }
 
-.group-link:hover .group-svg5 {
+.group__link:hover .group__svg5 {
   fill: var(--brand-color);
 }
 
-.group-link:focus .group-svg5 {
+.group__link:focus .group__svg5 {
   fill: var(--brand-color);
 }
 

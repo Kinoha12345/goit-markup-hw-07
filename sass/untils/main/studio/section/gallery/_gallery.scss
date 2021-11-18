@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.headline3 {
+.gallery__h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -12,19 +12,19 @@
     margin-bottom: 50px;
 }
 
-.ul-gallery {
+.gallery__ul {
     display: flex;
 }
 
-.img1 {
+.gallery__li1 {
     margin-right: 30px;
 }
 
-.gallery-block {
+.gallery__block {
     position: relative;
 }
 
-.text-gallery1 {
+.gallery__text1 {
     position: absolute;
     width: 370px;
     height: 70px;
@@ -44,11 +44,11 @@ background-color: rgba(47, 48, 58, 0.8);;
 color: var(--white-color);
 }
 
-.img2 {
+.gallery__li2 {
     margin-right: 30px;
 }
 
-.text-gallery2 {
+.gallery__text2 {
     position: absolute;
     
     width: 370px;
@@ -71,7 +71,7 @@ color: var(--white-color);
 
 }
 
-.text-gallery3 {
+.gallery__text3 {
     position: absolute;
     
     width: 370px;
