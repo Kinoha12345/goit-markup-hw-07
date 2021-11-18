@@ -3,17 +3,17 @@
     padding-bottom: 94px;
 }
 
-.clients__h2 {
+.clients__title {
     font-size: 36px;
 line-height: 42px;
 text-align: center;
 }
 
-.group__ul {
+.clients__list {
     display: flex;
 }
 
-.group__link {
+.clients-list__link {
     width: 170px;
     height: 92px;
     margin-top: 50px;
@@ -39,7 +39,7 @@ text-align: center;
     }
 }
 
-.group__svg {
+.clients-list__svg {
     fill: var(--svg-color);
     width: 41px;
     height: 46.7px;
@@ -50,15 +50,15 @@ text-align: center;
     transition-delay: 0;
 }
 
-.group__link:hover .group__svg{
+.clients-list__link:hover .clients-list__svg{
     fill: var(--brand-color);
 }
 
-.group__link:focus .group__svg{
+.clients-list__link:focus .clients-list__svg{
     fill: var(--brand-color);
 }
 
-.group__svg1 {
+.clients-list__svg1 {
     fill: var(--svg-color);
     width: 40px;
     height: 52px;
@@ -69,15 +69,15 @@ text-align: center;
     transition-delay: 0;
 }
 
-.group__link:hover .group__svg1{
+.clients-list__link:hover .clients-list__svg1{
     fill: var(--brand-color);
 }
 
-.group__link:focus .group__svg1{
+.clients-list__link:focus .clients-list__svg1{
     fill: var(--brand-color);
 }
 
-.group__svg2 {
+.clients-list__svg2 {
     fill: var(--svg-color);
     width: 43.46px;
     height: 41.18px;
@@ -88,15 +88,15 @@ text-align: center;
     transition-delay: 0;
 }
 
-.group__link:hover .group__svg2{
+.clients-list__link:hover .clients-list__svg2{
     fill: var(--brand-color);
 }
 
-.group__link:focus .group__svg2{
+.clients-list__link:focus .clients-list__svg2{
     fill: var(--brand-color);
 }
 
-.group__svg3 {
+.clients-list__svg3 {
     fill: var(--svg-color);
     width: 84.44px;
     height: 40.62px;
@@ -107,15 +107,15 @@ text-align: center;
     transition-delay: 0;
 }
 
-.group__link:hover .group__svg3{
+.clients-list__link:hover .clients-list__svg3{
     fill: var(--brand-color);
 }
 
-.group__link:focus .group__svg3{
+.clients-list__link:focus .clients-list__svg3{
     fill: var(--brand-color);
 }
 
-.group__svg4 {
+.clients-list__svg4 {
     fill: var(--svg-color);
     width: 62.54px;
     height: 45.43px;
@@ -126,15 +126,15 @@ text-align: center;
     transition-delay: 0;
 }
 
-.group__link:hover .group__svg4{
+.clients-list__link:hover .clients-list__svg4{
     fill: var(--brand-color);
 }
 
-.group__link:focus .group__svg4{
+.clients-list__link:focus .clients-list__svg4{
     fill: var(--brand-color);
 }
 
-.group__svg5 {
+.clients-list__svg5 {
     fill: var(--svg-color);
     width: 93.79px;
     height: 43.93px;
@@ -145,10 +145,10 @@ text-align: center;
     transition-delay: 0;
 }
 
-.group__link:hover .group__svg5{
+.clients-list__link:hover .clients-list__svg5{
     fill: var(--brand-color);
 }
 
-.group__link:focus .group__svg5{
+.clients-list__link:focus .clients-list__svg5{
     fill: var(--brand-color);
 }
