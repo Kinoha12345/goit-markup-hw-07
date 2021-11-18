@@ -71,13 +71,11 @@
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-        background-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
         background-color: var(--brand-color);
     }
+
 }
 
 .instagram-svg2 {
@@ -102,13 +100,11 @@
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-        background-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
         background-color: var(--brand-color);
     }
+
 }
 
 .twitter-svg2 {
@@ -133,15 +129,12 @@
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-    
-        background-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
     
         background-color: var(--brand-color);
     }
+
 }
 
 .facebook-svg2 {
@@ -165,13 +158,12 @@
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-        background-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
         background-color: var(--brand-color);
     }
+
+
 }
 
 .linkedin-svg2 {

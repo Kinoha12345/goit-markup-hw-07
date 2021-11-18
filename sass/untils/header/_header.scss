@@ -38,13 +38,11 @@
   transition-timing-function: linear;
   transition-delay: 0;
 
-    &:hover {
-        color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
         color: var(--brand-color);
     }
+
 }
 
 .logo {
@@ -117,16 +115,19 @@
       transition-timing-function: linear;
       transition-delay: 0;
 
-      &:hover {
-        color: var(--brand-color);
-          }
-        
-
+      &:hover,
       &:focus {
         color: var(--brand-color);
-            
+        .phone-svg {
+            fill: var(--brand-color);
+        }
+        .mail-svg {
+            fill: var(--brand-color);
         }
     }
+        
+
+}
 
     .contacts2 {
         font-size: 14px;
@@ -170,22 +171,16 @@
               transition-delay: 0;
             }
 
-            .contacts:hover .phone-svg {
-                fill: var(--brand-color);
-            }
             
-            .contacts:focus .phone-svg {
-                fill: var(--brand-color);
-            }
             
 
-            .contacts:hover .mail-svg {
-                fill: var(--brand-color);
-            }
+            // .contacts:hover .mail-svg {
+            //     fill: var(--brand-color);
+            // }
             
-            .contacts:focus .mail-svg {
-                fill: var(--brand-color);
-            }
+            // .contacts:focus .mail-svg {
+            //     fill: var(--brand-color);
+            // }
             
 .portfolio-ref-acctive {
     position: relative;

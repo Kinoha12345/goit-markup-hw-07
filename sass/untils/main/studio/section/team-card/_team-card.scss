@@ -85,12 +85,15 @@ border-radius: 0px 0px 4px 4px;
   transition-timing-function: linear;
   transition-delay: 0;
 
-    &:hover {
-    background-color: var(--brand-color);
-}
+    &:hover,
     &:focus {
-        background-color: var(--brand-color);
+    background-color: var(--brand-color);
+
+    .instagram-svg{
+        fill: var(--white-color);
     }
+    }
+    
 }
 
 .instagram-svg {
@@ -104,13 +107,7 @@ border-radius: 0px 0px 4px 4px;
   transition-delay: 0;
 }
 
-.instagram-link:hover .instagram-svg{
-    fill: var(--white-color);
-}
 
-.instagram-link:focus .instagram-svg{
-    fill: var(--white-color);
-}
 
 .twitter-link {
     border-radius: 50%;
@@ -127,13 +124,14 @@ border-radius: 0px 0px 4px 4px;
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-        background-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
         background-color: var(--brand-color);
+        .twitter-svg{
+            fill: var(--white-color);
+        }
     }
+
 }
 
 .twitter-svg {
@@ -147,13 +145,7 @@ border-radius: 0px 0px 4px 4px;
   transition-delay: 0;
 }
 
-.twitter-link:hover .twitter-svg{
-    fill: var(--white-color);
-}
 
-.twitter-link:focus .twitter-svg{
-    fill: var(--white-color);
-}
 
 .facebook-link {
     border-radius: 50%;
@@ -170,15 +162,16 @@ border-radius: 0px 0px 4px 4px;
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-    
-        background-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
     
         background-color: var(--brand-color);
+        .facebook-svg{
+            fill: var(--white-color);
+        }
     }
+
+    
 }
 
 .facebook-svg {
@@ -192,13 +185,6 @@ border-radius: 0px 0px 4px 4px;
   transition-delay: 0;
 }
 
-.facebook-link:hover .facebook-svg{
-    fill: var(--white-color);
-}
-
-.facebook-link:focus .facebook-svg{
-    fill: var(--white-color);
-}
 
 .linkedin-link {
     border-radius: 50%;
@@ -214,13 +200,14 @@ border-radius: 0px 0px 4px 4px;
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-        background-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
         background-color: var(--brand-color);
+        .linkedin-svg{
+            fill: var(--white-color);
+        }
     }
+
 }
 
 .linkedin-svg {
@@ -234,10 +221,3 @@ border-radius: 0px 0px 4px 4px;
   transition-delay: 0;
 }
 
-.linkedin-link:hover .linkedin-svg{
-    fill: var(--white-color);
-}
-
-.linkedin-link:focus .linkedin-svg{
-    fill: var(--white-color);
-}

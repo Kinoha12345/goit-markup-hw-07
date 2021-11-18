@@ -29,6 +29,12 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--white-color);
     cursor: pointer;
+
+    &:hover {
+        .backdrop-svg {
+            fill: var(--brand-color);
+        }
+    }
 }
 
 .modal {
@@ -56,9 +62,6 @@
     transition: fill 250ms ease;
 }
 
-.knob-backdrop:hover .backdrop-svg {
-    fill: var(--brand-color);
-}
 
 .text-backdrop {
     position: absolute;
@@ -107,6 +110,15 @@ color: var(--gray-color);
 
     &:focus {
         border-color: var(--brand-color);
+        + .modal-svg-profile{
+            fill: var(--brand-color);
+        }
+        + .modal-svg-tel{
+            fill: var(--brand-color);
+        }
+        + .modal-svg-email{
+            fill: var(--brand-color);
+        }
     }
 }
 
@@ -123,9 +135,7 @@ color: var(--gray-color);
     transition: fill 250ms ease;
 }
 
-.modal-input:focus + .modal-svg-profile{
-    fill: var(--brand-color);
-}
+
 
 .modal-label-tel {
     display: block;
@@ -150,10 +160,6 @@ color: var(--gray-color);
     left: 15px;
 
     transition: fill 250ms ease;
-}
-
-.modal-input:focus + .modal-svg-tel{
-    fill: var(--brand-color);
 }
 
 .modal-label-email {
@@ -181,9 +187,7 @@ color: var(--gray-color);
     transition: fill 250ms ease;
 }
 
-.modal-input:focus + .modal-svg-email{
-    fill: var(--brand-color);
-}
+
 
 .modal-label-comment {
     display: block;
@@ -245,11 +249,15 @@ border-radius: 4px;
     }
 }
 
-
-.input-check:checked + .check-text span{
-    background-color: var(--brand-color);
-    border: none;
+.input-check{
+    &:checked {
+        + .check-text span{
+            background-color: var(--brand-color);
+            border: none;
+        }
+    }
 }
+
 
 .modal-svg-comment {
     fill: var(--white-color);

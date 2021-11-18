@@ -30,13 +30,29 @@ text-align: center;
     transition-timing-function: linear;
     transition-delay: 0;
 
-    &:hover {
-        border-color: var(--brand-color);
-    }
-
+    &:hover,
     &:focus {
         border-color: var(--brand-color);
+        .clients-list__svg{
+            fill: var(--brand-color);
+        }
+        .clients-list__svg1{
+            fill: var(--brand-color);
+        }
+        .clients-list__svg2{
+            fill: var(--brand-color);
+        }
+        .clients-list__svg3{
+            fill: var(--brand-color);
+        }
+        .clients-list__svg4{
+            fill: var(--brand-color);
+        }
+        .clients-list__svg5{
+            fill: var(--brand-color);
+        }
     }
+
 }
 
 .clients-list__svg {
@@ -50,13 +66,7 @@ text-align: center;
     transition-delay: 0;
 }
 
-.clients-list__link:hover .clients-list__svg{
-    fill: var(--brand-color);
-}
 
-.clients-list__link:focus .clients-list__svg{
-    fill: var(--brand-color);
-}
 
 .clients-list__svg1 {
     fill: var(--svg-color);
@@ -69,13 +79,7 @@ text-align: center;
     transition-delay: 0;
 }
 
-.clients-list__link:hover .clients-list__svg1{
-    fill: var(--brand-color);
-}
 
-.clients-list__link:focus .clients-list__svg1{
-    fill: var(--brand-color);
-}
 
 .clients-list__svg2 {
     fill: var(--svg-color);
@@ -88,13 +92,6 @@ text-align: center;
     transition-delay: 0;
 }
 
-.clients-list__link:hover .clients-list__svg2{
-    fill: var(--brand-color);
-}
-
-.clients-list__link:focus .clients-list__svg2{
-    fill: var(--brand-color);
-}
 
 .clients-list__svg3 {
     fill: var(--svg-color);
@@ -107,13 +104,7 @@ text-align: center;
     transition-delay: 0;
 }
 
-.clients-list__link:hover .clients-list__svg3{
-    fill: var(--brand-color);
-}
 
-.clients-list__link:focus .clients-list__svg3{
-    fill: var(--brand-color);
-}
 
 .clients-list__svg4 {
     fill: var(--svg-color);
@@ -126,13 +117,7 @@ text-align: center;
     transition-delay: 0;
 }
 
-.clients-list__link:hover .clients-list__svg4{
-    fill: var(--brand-color);
-}
 
-.clients-list__link:focus .clients-list__svg4{
-    fill: var(--brand-color);
-}
 
 .clients-list__svg5 {
     fill: var(--svg-color);
@@ -143,12 +128,4 @@ text-align: center;
     transition-duration: 250ms;
     transition-timing-function: linear;
     transition-delay: 0;
-}
-
-.clients-list__link:hover .clients-list__svg5{
-    fill: var(--brand-color);
-}
-
-.clients-list__link:focus .clients-list__svg5{
-    fill: var(--brand-color);
 }

@@ -48,13 +48,10 @@
   transition-timing-function: linear;
   transition-delay: 0;
 
-    &:hover {
+    &:hover,
+    &:focus {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
-    &:focus {
-        background: #188CE8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  }
 }
